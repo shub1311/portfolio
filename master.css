@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: none ;
+ 
+}
+.main{
+    background-color: rgb(38, 119, 63);
+    width: 100%;
+ 
+}
+
+.logo>a{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.logo>a>span{
+    color: crimson;
+}
+h1{
+    color: crimson;
+
+}
+h3,h4{
+    color: #fff;
+}
+#img{
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px grey;
+}
+.heading{
+    margin-top: 100px;
+    height: 120px;
+}
+#cart{
+    display: flex;
+    gap: 30px;
+    
+}
+.cart-1{
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 5px;
+}
+.skills{
+    height: 100vh;
+    width: 100%;
+  background-color: rgb(2, 48, 75);
+}
+.te{
+    padding: 30px;
+    margin-left: 25%;
+    font-size: 40px;
+    color: chartreuse;
+}
+.te span{
+    color: aqua;
+}
+.maxi{
+    max-width: 60%;
+    margin: 150 px auto 0;
+}
+.first{
+   padding: 30px 0;
+    margin-top: 50px;
+  
+    display: 30px;
+}
+.wrap{
+    max-width: 60%;
+    margin: 150px auto 0;
+}
+.sm{
+    color:chartreuse;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+}
+.sm{
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+.sm span{
+    position: relative;
+    display:inline-block;
+    width: 100%;
+    height: 25px;
+    background: gray;
+    border-radius: 50px;
+}
+.sm span:before{
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 5px;
+    width: 80%;
+    height: 50%;
+    background-color:red;
+    border-radius: 50px;
+    animation: sm 4s ease;
+}
+@keyframes sm{
+    from{
+        width: 0;
+    }
+    
+}
+.sm:nth-child(1) span:before{
+  width: 50%;
+}
+.sm:nth-child(2) span:before{
+    width: 60%;
+  }
+ .sm:nth-child(3) span:before{
+    width: 50%;
+  }
+ .sm:nth-child(4) span:before{
+    width: 20%;
+  }
+  abbr{
+      width: 10%;
+      margin-bottom: 20px;
+      display: inline-block;
+      height: 35px;
+      border-radius: 50px;
+      text-align: center;
+      line-height: 35px;
+      position: absolute;
+      top: 32px;
+      z-index: 1;
+      background-color: rgba(88, 84, 84, 0.801);
+     
+      animation: count 4s ease;
+  }
+  @keyframes count{
+    from{
+        left: 0%;
+    }
+  }
+  .sm:nth-child(1) abbr{
+    left: 50%;
+  }
+  .sm:nth-child(2) abbr{
+    left: 60%;
+  }
+  .sm:nth-child(3) abbr{
+    left: 50%;
+  }
+  .sm:nth-child(4) abbr{
+    left: 20%;
+  }
+.friends{
+    width: 100%;
+    height: 100vh;
+}
+.friends span{
+    margin-left: 45%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.friends{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
